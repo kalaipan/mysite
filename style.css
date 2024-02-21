@@ -1,0 +1,158 @@
+.mansalva-regular {
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9ED69;
+}
+
+h1 {
+    color: #6A2C70;
+}
+
+.profilephotocontainer {
+    border-radius: 10%;
+    background-color: #F08A5D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilephoto {
+    border-radius: 50%;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.logotext {
+    margin: 10px;
+    font-family: "Julius Sans One", sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.middle {
+    background-image: url(./assets/images/blackboard.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bookimage {
+    float: right;
+    margin-left: auto;
+}
+
+.gameon {
+    margin-right: auto;
+}
+
+.middle > * {
+    margin: 30px;
+}
+
+.innerflex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.innerflex li {
+    color: aliceblue;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+
+.innerflex ul {
+    padding-left: 20px;
+    margin-top: 18px;
+}
+
+.innerflex-second {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6A2C70;
+    font-size: 1.5rem;    
+}
+
+.bottom li {
+    margin-top: 10px;
+}
+
+hr {
+    border: #6A2C70;
+    border-style: dashed;
+    width: 90%;
+    border-bottom: none;
+}
+
+h2 {
+    color: #6A2C70;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    justify-items: center;
+    gap: 20px;
+}
+
+a {
+    color: #6A2C70;
+    font-size: 1.5rem
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tindog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mondrian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .innerflex {
+        flex-direction: column;
+    }
+
+    .innerflex-second {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 476px) {
+    .innerflex-second img {
+        height: 100px;
+        width: 250px;
+    }
+}
